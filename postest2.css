@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script&family=Pacifico&display=swap');
+
+body {
+    background-color: #f9dcc4;
+}
+
+.logo-left{
+    background-color: #ffb5a7;
+    float: left;
+}
+
+.navbar {
+    position: static;
+}
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color: #ffb5a7;
+}
+.navbar li {
+    list-style: none;
+    float: right;
+}
+
+.navbar li a {
+    display: block;
+    color: #9182c4;
+    text-align: center;
+    padding: 20;
+    margin: 33px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: bisque;
+}
+
+.head-log {
+    background-image: url('gambar2/loghome.png');
+    background-size: cover;
+    height: 200%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head-log h2 {
+    font-family: 'Pacifico', cursive;
+    color: #7fcbd7;
+    text-align: center;
+    font-size: 100px;
+}
+
+table, th, td {
+    padding-right:10px;
+}
+
+.section tr {
+    text-align: center;
+}
+.section ul {
+    list-style: none;
+}
+#section-harian {
+    float: left;
+    margin-right: 30px;
+    padding-bottom: 100px;
+}
+
+#about-us {
+    font-family: 'Abril Fatface', cursive;
+    color:#857ebb;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    text-align: justify;
+    border-bottom: #857ebb solid 2px;
+}
+
+#about-me {
+    border-bottom: 2px solid rgb(115, 34, 34);
+    color: #857ebb;
+    border-bottom: #857ebb solid 2px;
+}
+.aboutme-body {
+    border-bottom: 2px #232323 solid;
+}
+
+.footer {
+    color: rgb(227, 18, 18);
+    background-color: #ffb5a7;
+}
+.footer-list {
+    display: flex;
+    text-align: right;
+    align-items: flex-end;
+}
+.footer-list li {
+    text-align: justify;
+    list-style: none;
+}
